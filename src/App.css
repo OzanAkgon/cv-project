@@ -1,0 +1,191 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header */
+header {
+  background: #e9d477;
+  color: #241e1e;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+/* Nav */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #0a0808;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+nav ul li a:hover {
+  background-color: #333;
+  margin: 10px 10px 10px 10px;
+  color: #e9d477;
+  font-size: 16px;
+}
+
+.resimkismi {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 19px;
+  width: calc(48% - 20px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 8px;
+  font-size: larger;
+}
+
+.home-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+#kepliresim {
+  width: 70%;
+  height: auto;
+  opacity: 1;
+}
+
+.resimkismi {
+  opacity: 1;
+}
+
+#icon1 {
+  font-size: 35px;
+  cursor: pointer;
+  color: #333;
+}
+
+#icon2 {
+  font-size: 35px;
+  margin-left: 20px;
+  cursor: pointer;
+  color: #333;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.info div {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.info strong {
+  width: 40%;
+}
+
+.info p {
+  width: 60%;
+  text-align: left;
+  margin: 0;
+}
+
+.aboutcontainer {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 19px;
+  margin-top: 20px;
+  width: calc(99% - 20px);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  display: block;
+  text-align: center;
+  border-radius: 8px;
+  font-size: larger;
+  letter-spacing: 1px;
+}
+
+.abdiv {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.contactcontainer {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 19px;
+  margin-top: 20px;
+  width: calc(99% - 20px);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  display: block;
+  text-align: center;
+  border-radius: 8px;
+  font-size: larger;
+}
+
+.cdiv {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#tel {
+  color: #333;
+  margin-left: 25px;
+  font-size: 20px;
+}
+
+#mail {
+  font-size: 20px;
+}
+
+.pdiv {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.projectcontainer {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 19px;
+  margin-top: 20px;
+  width: calc(99% - 20px);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  display: block;
+  text-align: center;
+  border-radius: 8px;
+  font-size: larger;
+}
+
+#github {
+  font-size: 40px;
+  color: #333;
+}
