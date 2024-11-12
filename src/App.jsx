@@ -1,6 +1,6 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Header from "/components/header";
+import Header from "./components/header";
 import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
