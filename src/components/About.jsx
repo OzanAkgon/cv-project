@@ -11,7 +11,7 @@ function About() {
           <p>Merhaba ben Ozan Akgön.</p>
           <p>
             2001 Samsun doğumluyum. Lise öğrenimime 2016 yılında Köksal Ersayın
-            Anadolu Lisesi'nde başladım ve tamamladım. 2020 yılında Bolu Abant
+            Anadolu Lisesi'nde başladım ve 2020'de mezun olarak tamamladım. 2020 yılında Bolu Abant
             İzzet Baysal Üniversitesi Bilgisayar Mühendisliği bölümünü kazandım.
             2024 yılında 3.34 GANO ile mezun oldum. Frontend alanında HTML5,
             CSS, Javascript ve React alanlarında kendimi geliştirmeye ve proje
