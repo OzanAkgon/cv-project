@@ -50,10 +50,10 @@ function Home() {
           </div>
           <br /> <br />
           <div className="icons">
-            <a target="_blank" href="https://github.com/ozanakgon">
+            <a target="_blank" href="https://www.instagram.com/ozanakgno/">
               <FaInstagram id={"icon1"} />
             </a>
-            <a target="_blank" href="https://github.com/ozanakgon">
+            <a target="_blank" href="https://www.linkedin.com/in/ozan-akg%C3%B6n-9abb4b329/">
               <FaLinkedin id={"icon2"} />
             </a>
           </div>
