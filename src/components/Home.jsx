@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid, Typography, Card, CardContent, CardMedia } from "@mui/material";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
           }}
         >
           <CardMedia
+            marginTop="20px"
             component="img"
             image="kepsss.jpg" // Yeni düzenlenmiş resim dosyanızın yolunu buraya ekleyin
             alt="Profile Image"
@@ -69,6 +71,23 @@ function Home() {
             <Typography variant="body1" gutterBottom sx={{ marginBottom: 2 }}>
               <strong>Ortalama (GANO):</strong> 3.34
             </Typography>
+
+            <a target="_blank" href="https://instagram.com">
+              <FaInstagram
+                color="black"
+                id="insta"
+                size={35}
+                style={{ margin: "0 10px" }}
+              />
+            </a>
+            <a target="_blank" href="https://linkedin.com">
+              <FaLinkedin
+                color="black"
+                id="linkedin"
+                size={35}
+                style={{ margin: "0 10px" }}
+              />
+            </a>
           </CardContent>
         </Card>
       </Grid>
