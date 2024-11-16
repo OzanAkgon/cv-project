@@ -12,7 +12,6 @@ function About() {
               flexDirection: "column",
               justifyContent: "center",
               alignItems: "center",
-              height: "200px",
             }}
           >
             <Typography variant="h4" gutterBottom>
