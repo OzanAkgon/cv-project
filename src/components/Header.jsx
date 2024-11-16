@@ -1,37 +1,28 @@
 import React from "react";
+import { AppBar, Toolbar, Typography, Button } from "@mui/material";
 import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header>
-      <div className="container">
-        <h2>Ozan Akgön</h2>
-        <nav className="navbar">
-          <ul>
-            <li>
-              <Link className="link" to="/">
-                Anasayfa
-              </Link>
-            </li>
-            <li>
-              <Link className="link" to="/projects">
-                Projeler
-              </Link>
-            </li>
-            <li>
-              <Link className="link" to="/about">
-                Hakkımda
-              </Link>
-            </li>
-            <li>
-              <Link className="link" to="/contact">
-                İletişim
-              </Link>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <AppBar position="static" sx={{ backgroundColor: "#6a5acd" }}>
+      <Toolbar>
+        <Typography variant="h6" sx={{ flexGrow: 1 }}>
+          Ozan Akgön
+        </Typography>
+        <Button color="inherit" component={Link} to="/">
+          Anasayfa
+        </Button>
+        <Button color="inherit" component={Link} to="/projects">
+          Projeler
+        </Button>
+        <Button color="inherit" component={Link} to="/about">
+          Hakkımda
+        </Button>
+        <Button color="inherit" component={Link} to="/contact">
+          İletişim
+        </Button>
+      </Toolbar>
+    </AppBar>
   );
 }
 
