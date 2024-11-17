@@ -25,7 +25,7 @@ function About() {
               Ersayın Anadolu Lisesi'nde başladım ve tamamladım. 2020 yılında
               Bolu Abant İzzet Baysal Üniversitesi Bilgisayar Mühendisliği
               bölümünü kazandım. 2024 yılında 3.34 GANO ile mezun oldum.
-              Frontend alanında HTML5, CSS, Javascript ve React alanlarında
+              Frontend alanında HTML5, CSS, Javascript ve React dillerinde
               kendimi geliştirmeye ve proje üretmeye çalışıyorum. Projelerime
               yukarıdaki menü üzerinden ulaşabilirsiniz.
             </Typography>

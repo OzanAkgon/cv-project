@@ -5,7 +5,6 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa";
 function Home() {
   return (
     <Grid container spacing={4} sx={{ padding: "20px" }}>
-      {/* Profil Resmi ve Bilgi Alanı */}
       <Grid item xs={12} md={6}>
         <Card
           sx={{
@@ -18,7 +17,7 @@ function Home() {
           <CardMedia
             marginTop="20px"
             component="img"
-            image="kepsss.jpg" // Yeni düzenlenmiş resim dosyanızın yolunu buraya ekleyin
+            image="kepsss.jpg"
             alt="Profile Image"
             sx={{
               objectFit: "cover",
@@ -26,7 +25,7 @@ function Home() {
               margin: "0 auto",
               height: "350px",
               width: "70%",
-              objectPosition: "top", // Yüzünüzü odaklamak için
+              objectPosition: "top",
             }}
           />
           <CardContent>
@@ -34,13 +33,12 @@ function Home() {
               Ozan Akgön
             </Typography>
             <Typography variant="body1" color="text.secondary">
-              Bilgisayar Mühendisliği Öğrencisi
+              Computer Engineer
             </Typography>
           </CardContent>
         </Card>
       </Grid>
 
-      {/* Kişisel Bilgiler */}
       <Grid item xs={12} md={6}>
         <Card sx={{ boxShadow: 3, padding: "20px", height: "100%" }}>
           <CardContent>
@@ -72,7 +70,7 @@ function Home() {
               <strong>Ortalama (GANO):</strong> 3.34
             </Typography>
 
-            <a target="_blank" href="https://instagram.com">
+            <a target="_blank" href="https://instagram.com/ozanakgno">
               <FaInstagram
                 color="black"
                 id="insta"
@@ -80,7 +78,10 @@ function Home() {
                 style={{ margin: "0 10px" }}
               />
             </a>
-            <a target="_blank" href="https://linkedin.com">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/ozan-akg%C3%B6n-9abb4b329/"
+            >
               <FaLinkedin
                 color="black"
                 id="linkedin"
@@ -92,7 +93,6 @@ function Home() {
         </Card>
       </Grid>
 
-      {/* Öne Çıkan Projeler */}
       <Grid item xs={12} sx={{ marginTop: 4 }}>
         <Typography variant="h5" align="center" gutterBottom>
           Öne Çıkan Projelerim
